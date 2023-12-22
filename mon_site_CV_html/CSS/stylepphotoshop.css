@@ -17,3 +17,46 @@
     justify-content: space-between;
     box-sizing: border-box;
   }
+
+  .element a {
+    color: white;
+  }
+  
+  .element a:visited {
+    color: white;
+  }
+  
+  .titre {
+    margin-top: 30px;
+    list-style: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .element:hover {
+    background-color: rgb(31, 18, 18);
+  }
+  
+  #Moi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .GridInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .Gros {
+    grid-column: span 2;
+  }
+  
+  footer {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
