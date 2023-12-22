@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "relatta";
+    src: url("/mon_site_CV_html/FONT/relatta_saidnolia_serif/Relatta\ Saidnolia\ Serif.otf");
+  }
+  
+  * {
+    color: aliceblue;
+  }
+  
+  body {
+    background-image: url(../IMAGE/Plan\ de\ travail\ 1.jpg);
+  }
+  
+  .menu {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
