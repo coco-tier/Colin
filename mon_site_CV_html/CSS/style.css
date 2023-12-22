@@ -1,77 +1,64 @@
-
-/** @font-face {
-    font-family:"relatta";
-    src:url("../FONT/relatta_saidnolia_serif/Relatta\ Saidnolia\ Serif.otf");
-    }
-
-#titre{
-    font-family: "relatta";
-    text-align: center;
-    color: rgb(218, 218, 218);
-    
+@font-face {
+  font-family: "relatta";
+  src: url("/mon_site_CV_html/FONT/relatta_saidnolia_serif/Relatta\ Saidnolia\ Serif.otf");
 }
 
-.typo {
-    font-family: "relatta";
-    color: rgb(218, 218, 218);
-    
+* {
+  color: aliceblue;
 }
-
 
 body {
-    background-color: rgb(218, 218, 218);
-    background-image: url(../IMAGE/Plan\ de\ travail\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-image: url(../IMAGE/Plan\ de\ travail\ 1.jpg);
 }
 
-
-.menu-bar {
-    background-color: #1988f7;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  
-  .item {
-    color: white;
-    background-color: transparent;
-    font-size: 18px;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 14px 20px;
-  }
-  
-  .item.titre {
-    font-weight: 600;
-  }
-  
-  .item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-**/
-
 .menu {
-    background-color: #0f0f0f;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  
-  .element {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    font-size: 18px;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 14px 20px;
-  }
-  
-  .titre {
-    color: white;
-    font-weight: 600;
-  }
-  
-  .element:hover {
-    background-color: rgb(31, 18, 18);
-  }
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.element {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+}
+
+.element a {
+  color: white;
+}
+
+.element a:visited {
+  color: white;
+}
+
+.titre {
+  margin-top: 30px;
+  list-style: none;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.element:hover {
+  background-color: rgb(31, 18, 18);
+}
+
+#Moi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.GridInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Gros {
+  grid-column: span 2;
+}
